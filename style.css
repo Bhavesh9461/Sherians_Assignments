@@ -1,0 +1,612 @@
+@font-face {
+  font-family: font1;
+  src: url(./fonts/656b86fa3fe3596cc68938b1_TTCommonsProBold.woff2);
+}
+@font-face {
+  font-family: font2;
+  src: url(./fonts/656b86ff823e1e81ea66c6b5_TTCommonsProDemiBold.woff2);
+}
+@font-face {
+  font-family: font3;
+  src: url(./fonts/656b8703110c47fed1502536_TTCommonsProExtraBold.woff2);
+}
+@font-face {
+  font-family: font4;
+  src: url(./fonts/656b870b0129678b31d2ba06_TTCommonsProRegular.woff2);
+}
+@font-face {
+  font-family: font5;
+  src: url(./fonts/TK3iWkUHHAIjg752GT8G.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+}
+main #sec1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main #sec1 .homeContent {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.5rem;
+  justify-content: center;
+  align-items: center;
+}
+main #sec1 .homeContent .info {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main #sec1 .homeContent .info h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 6.8rem;
+  font-family: font3;
+  line-height: 5rem;
+}
+main #sec1 .homeContent .info h1 #heart {
+  font-size: 4rem;
+}
+main #sec1 .homeContent .info h3 {
+  font-weight: 300;
+  font-family: font4;
+  font-size: 1.44rem;
+  color: rgb(88, 90, 91);
+}
+main #sec1 #MainVdos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 3;
+}
+main #sec1 #MainVdos .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+main #sec1 #MainVdos .btns button {
+  padding: 1.34rem 2.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  border-radius: 5px;
+  font-size: 1.15rem;
+  font-family: font2;
+  text-transform: capitalize;
+}
+main #sec1 #MainVdos .btns button:nth-child(1) {
+  border: 2px solid black;
+  background: transparent;
+}
+main #sec1 #MainVdos .btns button:nth-child(2) {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #a034f6;
+}
+main #sec1 #MainVdos .homeVdo {
+  margin-top: 1.5rem;
+  width: 55%;
+  overflow: hidden;
+  border-radius: 1.1rem;
+  z-index: 7;
+}
+main #sec1 #MainVdos .homeVdo video {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main #sec1 #MainVdos .imgs {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  position: absolute;
+  z-index: 5;
+}
+main #sec1 #MainVdos .imgs div {
+  width: 13vw;
+  height: 9.4vw;
+  background-color: red;
+  border-radius: 1rem;
+  position: absolute;
+  overflow: hidden;
+}
+main #sec1 #MainVdos .imgs div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main #sec1 #MainVdos .imgs div:nth-child(1) {
+  left: 5%;
+  top: 0%;
+}
+main #sec1 #MainVdos .imgs div:nth-child(4) {
+  right: 5%;
+  top: 0%;
+}
+main #sec1 #MainVdos .imgs div:nth-child(2) {
+  left: 1%;
+  top: 35%;
+}
+main #sec1 #MainVdos .imgs div:nth-child(5) {
+  right: 1%;
+  top: 35%;
+}
+main #sec1 #MainVdos .imgs div:nth-child(3) {
+  left: 3%;
+  top: 67.1%;
+}
+main #sec1 #MainVdos .imgs div:nth-child(6) {
+  right: 3%;
+  top: 67.1%;
+}
+main #sec2 {
+  margin-top: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main #sec2 > div {
+  width: 85.5%;
+}
+main #sec2 > div h1 {
+  font-size: 3.1rem;
+  font-family: font3;
+  line-height: 3.4rem;
+}
+main #sec2 > div h1 #s1 {
+  color: #ff6678;
+}
+main #sec2 > div h1 #s2 {
+  color: #fda801;
+}
+main #sec2 > div h1 #s3 {
+  color: #00b4a9;
+}
+main #sec2 > div .cards {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2.2rem;
+}
+main #sec2 > div .cards .card {
+  width: 100%;
+  height: 100vh;
+  border-radius: 1rem;
+  padding: 2rem;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+main #sec2 > div .cards .card h3 {
+  font-size: 1.4rem;
+  font-family: font1;
+  display: flex;
+  align-items: center;
+}
+main #sec2 > div .cards .card h3 svg {
+  margin-right: 0.4rem;
+}
+main #sec2 > div .cards .card p {
+  margin-top: 1rem;
+  font-size: 1.14rem;
+  font-family: font4;
+  color: rgb(33, 33, 33);
+}
+main #sec2 > div .cards .card:nth-child(1) {
+  background-color: #f983ab;
+  background-image: url(./images/cardImg1.webp);
+}
+main #sec2 > div .cards .card:nth-child(2) {
+  background-color: #ffb302;
+  background-image: url(./images/cardImg2.webp);
+}
+main #sec2 > div .cards .card:nth-child(3) {
+  background-color: #00a6a7;
+  background-image: url(./images/cardImg3.webp);
+}
+main #sec3 {
+  margin: 3rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #sec3 div {
+  width: 65%;
+  text-align: center;
+  padding: 6rem 0;
+}
+main #sec3 div h3 {
+  font-family: font1;
+  color: #a034f6;
+}
+main #sec3 div h1 {
+  font-family: font1;
+  font-size: 3rem;
+  margin-top: 0.8rem;
+  line-height: 3.2rem;
+}
+main #sec4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main #sec4 > div {
+  width: 86%;
+  position: relative;
+  z-index: 3;
+}
+main #sec4 > div #imgDiv {
+  width: 100%;
+  height: 100%;
+  z-index: 7;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+main #sec4 > div #imgDiv img {
+  float: right;
+  width: 45%;
+}
+main #sec4 > div #rectCard {
+  width: 100%;
+  height: 90%;
+  background: linear-gradient(90deg, #e1e2e2, #b6b5b4);
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  padding: 4.2rem;
+  padding-top: 5rem;
+  padding-bottom: 4.5rem;
+  border-radius: 1.5rem;
+}
+main #sec4 > div #rectCard .instructor {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+main #sec4 > div #rectCard .instructor h3 {
+  color: #a034f6;
+  font-family: font1;
+}
+main #sec4 > div #rectCard .instructor h1 {
+  font-family: font3;
+  font-size: 4.2rem;
+  line-height: 4rem;
+}
+main #sec4 > div #rectCard .instructor p {
+  font-family: font4;
+  font-size: 1.4rem;
+  color: rgba(64, 67, 67, 0.7294117647);
+}
+main #sec4 > div #rectCard .instructor div {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  gap: 1.2rem;
+}
+main #sec4 > div #rectCard .instructor div img {
+  width: 2.2rem;
+}
+main #sec5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 9.5rem 0;
+  padding-bottom: 8.5rem;
+}
+main #sec5 > div {
+  width: 83.5%;
+}
+main #sec5 > div h1 {
+  font-family: font3;
+  font-size: 3.05rem;
+}
+main #sec5 > div .gridBoxes {
+  margin-top: 1.57rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 48vh 48vh 48vh;
+  gap: 1.5rem;
+  grid-template-areas: "left left right1 right2" "left left right3 right4" "bottom1 bottom2 bottom3 bottom4";
+}
+main #sec5 > div .gridBoxes div {
+  border-radius: 1.2rem;
+  background-size: cover;
+  background-position: center;
+  padding: 1.5rem;
+}
+main #sec5 > div .gridBoxes div h1 {
+  font-family: font1;
+  font-size: 2.1rem;
+}
+main #sec5 > div .gridBoxes .left {
+  grid-area: left;
+  background-image: url(./images/grdLeft.webp);
+}
+main #sec5 > div .gridBoxes .right1 {
+  grid-area: right1;
+  background-image: url(./images/grdRight1.webp);
+}
+main #sec5 > div .gridBoxes .right2 {
+  grid-area: right2;
+  background-image: url(./images/grdRight2.webp);
+}
+main #sec5 > div .gridBoxes .right3 {
+  grid-area: right3;
+  background-image: url(./images/grdRight3.webp);
+}
+main #sec5 > div .gridBoxes .right4 {
+  grid-area: right4;
+  background-image: url(./images/grdRight4.webp);
+}
+main #sec5 > div .gridBoxes .bottom1 {
+  grid-area: bottom1;
+  background-image: url(./images/grdBottom1.webp);
+}
+main #sec5 > div .gridBoxes .bottom2 {
+  grid-area: bottom2;
+  background-image: url(./images/grdBottom2.webp);
+}
+main #sec5 > div .gridBoxes .bottom3 {
+  grid-area: bottom3;
+  background-image: url(./images/grdBottom3.webp);
+}
+main #sec5 > div .gridBoxes .bottom4 {
+  grid-area: bottom4;
+  background-image: url(./images/grdBottom4.webp);
+}
+main #sec6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main #sec6 > div {
+  width: 83.5%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+main #sec6 > div > div {
+  width: 50%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+main #sec6 > div #left {
+  width: 40%;
+  height: 38vw;
+  background-image: url(./images/bgBigImg.webp);
+  background-size: cover;
+  background-position: center;
+}
+main #sec6 > div #left img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+main #sec6 > div #right {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+main #sec6 > div #right h1 {
+  font-family: font1;
+  font-size: 2.9rem;
+}
+main #sec6 > div #right .MoreInfo {
+  width: 100%;
+  display: flex;
+  gap: 1.6rem;
+}
+main #sec6 > div #right .MoreInfo > div {
+  width: 50%;
+}
+main #sec6 > div #right .MoreInfo > div h3 {
+  font-family: font1;
+  font-size: 1.5rem;
+}
+main #sec6 > div #right .MoreInfo > div p {
+  margin-top: 0.5rem;
+  font-family: font4;
+  font-size: 1.08rem;
+  color: #686765;
+}
+main #sec7 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0;
+}
+main #sec7 > div {
+  width: 83%;
+}
+main #sec7 > div #grdBox2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 28vh 31.5vh 31.5vh 31.5vh 28vh 31.5vh;
+  gap: 0.55rem;
+  grid-template-areas: "line1-left line1-center line1-right" "line2-left line2-left line2-right" "line3-4-left line3-4-cntrTop line3-4-right" "line3-4-left line3-4-cntrBottom line3-4-right" "line5-left line5-center line5-right" "line6-left line6-left line6-right";
+}
+main #sec7 > div #grdBox2 > div {
+  border-radius: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+main #sec7 > div #grdBox2 > div .infos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+}
+main #sec7 > div #grdBox2 > div .infos .imgdiv {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+  width: 35%;
+  height: 9vw;
+}
+main #sec7 > div #grdBox2 > div .infos .imgdiv img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 0.5rem;
+}
+main #sec7 > div #grdBox2 > div .infos .infoX {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main #sec7 > div #grdBox2 > div .infos .infoX p {
+  font-family: font4;
+  font-size: 1.13rem;
+  color: #1d1c1b;
+}
+main #sec7 > div #grdBox2 > div .infos .infoX h3 {
+  font-family: font4;
+  font-size: 0.9rem;
+}
+main #sec7 > div #grdBox2 #line1-left {
+  background-color: #96d470;
+  grid-area: line1-left;
+}
+main #sec7 > div #grdBox2 #line1-center {
+  background-color: #f2ee8f;
+  grid-area: line1-center;
+}
+main #sec7 > div #grdBox2 #line1-right {
+  background-color: #dcadf9;
+  grid-area: line1-right;
+}
+main #sec7 > div #grdBox2 #line2-left {
+  background-color: #e5d3ff;
+  grid-area: line2-left;
+}
+main #sec7 > div #grdBox2 #line2-left .infos {
+  width: 100%;
+}
+main #sec7 > div #grdBox2 #line2-left .infos .imgdiv {
+  width: 9.24vw;
+  height: 10vw;
+  flex-shrink: 0;
+}
+main #sec7 > div #grdBox2 #line2-left .infos .infoX p {
+  font-size: 1.36rem;
+}
+main #sec7 > div #grdBox2 #line2-right {
+  background-color: #f34d1f;
+  grid-area: line2-right;
+}
+main #sec7 > div #grdBox2 #line2-right .infos .infoX {
+  color: white;
+}
+main #sec7 > div #grdBox2 #line2-right .infos .infoX p {
+  font-size: 1.9rem;
+  color: white;
+  width: 50%;
+}
+main #sec7 > div #grdBox2 #line3-4-left {
+  background-color: #9bdfdb;
+  grid-area: line3-4-left;
+}
+main #sec7 > div #grdBox2 #line3-4-left .infos .infoX p {
+  font-size: 1.2rem;
+}
+main #sec7 > div #grdBox2 #line3-4-cntrTop {
+  background-color: #96d470;
+  grid-area: line3-4-cntrTop;
+}
+main #sec7 > div #grdBox2 #line3-4-cntrBottom {
+  background-color: #f3d682;
+  grid-area: line3-4-cntrBottom;
+}
+main #sec7 > div #grdBox2 #line3-4-cntrBottom .infos .infoX p {
+  font-size: 1.4rem;
+}
+main #sec7 > div #grdBox2 #line3-4-right {
+  background-color: #f3d682;
+  grid-area: line3-4-right;
+}
+main #sec7 > div #grdBox2 #line3-4-right .infos .infoX p {
+  font-size: 1.2rem;
+}
+main #sec7 > div #grdBox2 #line5-left {
+  background-color: #dcadf9;
+  grid-area: line5-left;
+}
+main #sec7 > div #grdBox2 #line5-left .infos .infoX p {
+  font-size: 1.4rem;
+}
+main #sec7 > div #grdBox2 #line5-center {
+  background-color: #f1a3bb;
+  grid-area: line5-center;
+}
+main #sec7 > div #grdBox2 #line5-center .infos .infoX p {
+  font-size: 1.3rem;
+}
+main #sec7 > div #grdBox2 #line5-right {
+  background-color: #f4c4a9;
+  grid-area: line5-right;
+}
+main #sec7 > div #grdBox2 #line6-left {
+  background-color: #dcadf9;
+  grid-area: line6-left;
+}
+main #sec7 > div #grdBox2 #line6-left .infos {
+  width: 100%;
+}
+main #sec7 > div #grdBox2 #line6-left .infos .imgdiv {
+  width: 9.24vw;
+  height: 10vw;
+  flex-shrink: 0;
+}
+main #sec7 > div #grdBox2 #line6-left .infos .infoX p {
+  font-size: 1.29rem;
+}
+main #sec7 > div #grdBox2 #line6-right {
+  background-color: #f4c87b;
+  grid-area: line6-right;
+}
+main #sec7 > div #grdBox2 #line6-right .infos .infoX p {
+  font-size: 1.4rem;
+}/*# sourceMappingURL=style.css.map */
