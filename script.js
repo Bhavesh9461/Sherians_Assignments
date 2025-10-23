@@ -77,6 +77,10 @@ function Sec5() {
   });
 }
 
+function sec34(){
+  
+}
+
 function Sec6() {
   gsap.from("#sec6 #innerDiv", {
     y: 80,
